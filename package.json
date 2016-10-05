@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "name": "helloworld",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "fable",
+    "watch": "fable -w --target watch",
+    "start": "electron app/js/main.js",    
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fable-core": "^0.6.3"
+  },
+  "devDependencies": {
+    "fable-import-electron": "0.0.5",
+    "source-map-loader": "^0.1.5",
+    "webpack": "^1.13.1"
+  }
+}
