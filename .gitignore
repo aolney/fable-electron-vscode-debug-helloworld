@@ -252,5 +252,5 @@ paket-files/
 *.sln.iml
 
 # don't commit js we transpile to
-app/*
+app/js/*
 temp/*
