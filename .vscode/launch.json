@@ -6,7 +6,7 @@
       "type": "node",
       "request": "launch",
       "cwd": "${workspaceRoot}",
-      "runtimeExecutable": "/usr/local/bin/electron",
+      "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/electron",
       "sourceMaps": true,
       "outDir": "${workspaceRoot}/app/js",
       "program": "${workspaceRoot}/app/js/main.js"
@@ -15,7 +15,7 @@
       "name": "Debug Renderer Process",
       "type": "chrome",
       "request": "launch",
-      "runtimeExecutable": "/usr/local/bin/electron",
+      "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/electron",
       "sourceMaps": true,
       "runtimeArgs": [
         "${workspaceRoot}/app/js/main.js",

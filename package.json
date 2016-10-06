@@ -7,13 +7,14 @@
   "scripts": {
     "build": "fable",
     "watch": "fable -w --target watch",
-    "start": "electron app/js/main.js",    
+    "start": "electron app/js/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "electron": "^1.4.2",
     "fable-core": "^0.6.3"
   },
   "devDependencies": {
