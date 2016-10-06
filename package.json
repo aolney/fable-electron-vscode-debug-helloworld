@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "build": "fable",
-    "watch": "fable -w --target watch",
+    "watch": "fable -w",
     "start": "electron app/js/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,9 +18,9 @@
     "fable-core": "^0.6.7"
   },
   "devDependencies": {
+    "fable-compiler": "^0.6.11",
     "fable-import-electron": "0.0.5",
     "source-map-loader": "^0.1.5",
-    "webpack": "^1.13.1",
-    "fable-compiler": "^0.2.12"
+    "webpack": "^1.13.1"
   }
 }

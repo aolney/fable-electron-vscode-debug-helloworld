@@ -64,7 +64,7 @@ From your command line:
 
       2. Run fable (fableconfig.json contains the compiler options)
 
-         `fable`
+         `./node_modules/.bin/fable`
 
       3. Run electron
 

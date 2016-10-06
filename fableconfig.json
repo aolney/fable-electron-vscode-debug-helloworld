@@ -10,7 +10,7 @@
     "targets": {
         "watch": {
           "scripts": {
-            "postbuild": "webpack --watch"
+            "postbuild-once": "webpack --watch"
           }
         }
      }
