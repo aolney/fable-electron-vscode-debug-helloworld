@@ -47,15 +47,11 @@ I've also installed these extensions:
 
 From your command line:
 
-1. Install fable-compiler globally
-
-   `npm install -g fable-compiler`
-
-2. Clone this repository
+1. Clone this repository
 
    `git clone https://github.com/aolney/fable-electron-vscode-debug-helloworld.git`
 
-3. Build and Run
+2. Build and Run
 
     * From command line
       1. Go into the repository
